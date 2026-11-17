@@ -6,15 +6,31 @@
 
 ---
 
-## 👥 Thành viên nhóm
+## Thành viên nhóm
 
-| STT | Họ và tên | MSSV | Vai trò / Phần việc phụ trách |
-|:---:|-----------|:----:|-------------------------------|
-| 1 | Huỳnh Lê Ngọc Trinh | 110123058 |  Backend, Database|
-| 2 | Thạch Thị Ngọc Trâm| 110123057 |  Giao diện, Frontend|
-| 3 | Trần Nguyễn Hoàng Ân | 110123069 | Kiểm thử, Tài liệu |
+| Thành viên | Trang / Phần việc | Chức năng |
+|------------|-------------------|-----------|
+| Huỳnh Lê Ngọc Trinh | Khởi tạo dự án | Cài đặt CodeIgniter 4, cấu hình `.env`, Docker|
+| | Cơ sở dữ liệu | Thiết kế các bảng và quan hệ khóa ngoại |
+| | Admin: Quản lý sản phẩm | Xem danh sách, thêm, sửa, xóa sản phẩm, upload hình ảnh |
+| | Admin: Quản lý danh mục | Xem danh sách, thêm, sửa, xóa danh mục |
+| |Thanh toán | Nhập thông tin nhận hàng, xác nhận và tạo đơn hàng |
+| | Giao diện Dashboard thống kê | Thống kê doanh thu, số đơn hàng, sản phẩm |
+| |Kiểm thử | Kiểm tra các chức năng đăng nhập, tính tiền , ghi nhận và báo lỗi |
+| Thạch Thị Ngọc Trâm | Cơ sở dữ liệu | Thiết kế các bảng và quan hệ khóa ngoại |
+| | Trang chủ | Thiết kế và xây dựng giao diện trang chủ |
+| | Giỏ hàng | Thêm, sửa số lượng, xóa sản phẩm trong giỏ, tính tổng tiền |
+| | Giao diện trang Thanh toán | Nhập thông tin nhận hàng, xác nhận và tạo đơn hàng |
+| | Admin: Dashboard thống kê | Thống kê doanh thu, số đơn hàng, sản phẩm |
+| Trần Nguyễn Hoàng Ân | Đăng nhập / Đăng ký | Tạo tài khoản, đăng nhập, đăng xuất, phân quyền khách hàng / quản trị viên |
+| | Cơ sở dữ liệu | Thiết kế các bảng và quan hệ khóa ngoại|
+| | Admin: Quản lý đơn hàng | Xem danh sách, xem chi tiết, cập nhật trạng thái đơn hàng |
+| | Admin: Quản lý khách hàng | Xem danh sách, xem thông tin, khóa / xóa tài khoản khách hàng |
+| | Giao diện trang Quản lý sản phẩm, danh mục|
+| | Kiểm thử | Kiểm tra các chức năng thêm xóa sửa hình ảnh, sản phẩm , ghi nhận và báo lỗi |
+
 ---
-## 📖 Giới thiệu đề tài
+## Giới thiệu đề tài
 
 ### Lý do chọn đề tài
 
@@ -56,7 +72,7 @@ Dự án tập trung vào các chức năng cốt lõi của một website thư�
 
 ---
 
-## 🛠 Công nghệ sử dụng
+## Công nghệ sử dụng
 
 | Thành phần | Công nghệ |
 |------------|-----------|
@@ -69,7 +85,7 @@ Dự án tập trung vào các chức năng cốt lõi của một website thư�
 
 ---
 
-## ⚙️ Yêu cầu hệ thống
+## Yêu cầu hệ thống
 
 - PHP **8.2** trở lên, bật các extension: `intl`, `mbstring`, `json`, `mysqlnd`
 - Composer 2
@@ -78,7 +94,7 @@ Dự án tập trung vào các chức năng cốt lõi của một website thư�
 
 ---
 
-## 🚀 Hướng dẫn cài đặt
+## Hướng dẫn cài đặt
 
 ### Cách 1: Chạy trực tiếp
 
@@ -132,12 +148,3 @@ docker compose up --build
 ---
 
 
-
-## 📝 Phân công công việc
-
-| Thành viên | Vai trò | Công việc đã thực hiện |
-|------------|---------|------------------------|
-| Huỳnh Lê Ngọc Trinh | Backend | Khởi tạo dự án CodeIgniter 4, thiết kế cơ sở dữ liệu, xây dựng chức năng đăng nhập / đăng ký, giỏ hàng và thanh toán, cấu hình Docker, Xây dựng chức năng quản trị: quản lý sản phẩm, danh mục, đơn hàng, người dùng và dashboard thống kê|
-| Thạch Thị Ngọc Trâm | Frontend | Thiết kế giao diện trang chủ, danh sách sản phẩm, chi tiết sản phẩm, giao diện responsive bằng HTML, CSS, JavaScript |
-| Trần Nguyễn Hoàng Ân | Kiểm thử, Tài liệu | Kiểm thử các chức năng, ghi nhận và báo lỗi, viết báo cáo, chụp ảnh demo, soạn slide thuyết trình |
----
