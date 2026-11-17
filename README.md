@@ -84,8 +84,3 @@ docker compose up --build
 
 - [CodeIgniter 4 User Guide](https://codeigniter.com/user_guide/)
 - [PHP Manual](https://www.php.net/manual/)
-- [Tài liệu khác của nhóm]
-
----
-
-© [Năm] – Nhóm [Số nhóm] – [Tên trường]
